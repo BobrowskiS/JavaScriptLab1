@@ -7,7 +7,7 @@
 <script>
 	alert("Привет");
  var years = parseInt(prompt('Сколько вам лет?', 100));
-   if (isNaN(years) || years == 0 || years>125) {
+   if (isNaN(years) || years <= 0 || years>125) {
 			alert('Ну и не надо!!!');
 		} else {
 			alert('Поздравляю! Вам '+years+'лет! С праздничком!!!');
